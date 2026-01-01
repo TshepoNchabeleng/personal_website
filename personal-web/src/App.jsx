@@ -26,7 +26,7 @@ export default function Portfolio(){
     },
     {
       title: "Retrieval-Augmented Generation model",
-      decription: "A RAG model that is focused on thermochemistry to help me understand my chemistry class and improve my python skills",
+      description: "A RAG model that is focused on thermochemistry to help me understand my chemistry class and improve my python skills",
       tech: ["Python", "fastapi", "JavaScript", "streamlit"],
       image: ragImage,
       link:"https://github.com/HammerLock7/RAG-1"
@@ -98,7 +98,7 @@ export default function Portfolio(){
         </div>
       </nav>
 
-      {/* Hero section /*/}
+      {/* Hero section */}
       <section id="home" className="hero">
         <div className="hero-content">
           <div className="avatar">
@@ -114,7 +114,7 @@ export default function Portfolio(){
             <a href="https://github.com/TshepoNchabeleng" target="_blank" rel="noopener noreferrer"><Github size={24}/></a>
             <a href="https://www.linkedin.com/in/tshepo-nchabeleng-3b4807348" target="_blank" rel="noopener noreferrer"><Linkedin size={24}/></a>
             <a href="https://instagram.com/tshepo_nchabeleng7" target="_blank" rel="noopener noreferrer"><Instagram size={24}/></a>
-            <a href="tsheposhaun7@gmail.com" target="_blank" rel="noopener noreferrer"><Mail size={24}/></a>
+            <a href="mailto:tsheposhaun7@gmail.com" target="_blank" rel="noopener noreferrer"><Mail size={24}/></a>
           </div>
           <button
             onClick={()=> scrollToSection('projects')}
@@ -211,7 +211,7 @@ export default function Portfolio(){
             Interested in collaboration or have questions about my work? I'd love to hear from you!
           </p>
           <div className="contact-buttons">
-            <a href="mailto:tsehposhaun7@gmail.com" className="btn-primary">
+            <a href="mailto:tsheposhaun7@gmail.com" className="btn-primary">
               Send Email
             </a>
             <a href={myCV} download="Tshepo_Nchabeleng_CV.pdf" className="btn-secondary">
@@ -229,7 +229,7 @@ export default function Portfolio(){
 
       {/* Footer */}
       <footer>
-        <p>© 2025 Tshepo Nchabeleng. Built with passion and code.</p>
+        <p>&copy; 2025 Tshepo Nchabeleng. Built with passion and code f.</p>
       </footer>
     </div>
   );
