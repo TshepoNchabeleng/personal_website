@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {Menu, X, Github, Linkedin, Instagram, Mail, ExternalLink, ChevronDown} from 'lucide-react';
 import ragImage from './Screenshot_2025-12-31_180903.png';
 import myImage from './IMG-20251231-WA0027.jpg';
+import myCV from './Tshepo_Nchabeleng_CV.pdf';
 import './index.css';
 
 export default function Portfolio(){
@@ -83,7 +84,7 @@ export default function Portfolio(){
           </button>
         </div>
         {/* Mobile Menu */}
-        <div className={"mobile-menu ${isMenuOpen ? 'open': ''}"}>
+        <div className={`mobile-menu ${isMenuOpen ? 'open': ''}`} >
           <div className="mobile-menu-content">
             {['home', 'projects', 'research', 'media', 'contact'].map((section) =>(
               <button
@@ -213,7 +214,7 @@ export default function Portfolio(){
             <a href="mailto:tsehposhaun7@gmail.com" className="btn-primary">
               Send Email
             </a>
-            <a href="" className="btn-secondary">
+            <a href={myCV} download="Tshepo_Nchabeleng_CV.pdf" className="btn-secondary">
               Download Resume
             </a>
           </div>
