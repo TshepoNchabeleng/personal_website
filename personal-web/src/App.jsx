@@ -229,9 +229,9 @@ export default function Portfolio(){
 
       {/* Footer */}
       <footer>
-        <p>&copy; 2025 Tshepo Nchabeleng. Built with passion and code f.</p>
+        <p>&copy; 2025 Tshepo Nchabeleng. Built with passion and code.</p>
       </footer>
     </div>
   );
-}
+}                                                                                                                                                                                                 
 
