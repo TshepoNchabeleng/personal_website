@@ -128,7 +128,7 @@ export default function Portfolio(){
       {/* Projects Section */}
       <section id="projects">
         <div className="container">
-          <h2 className="section-title">Current Projects</h2>
+          <h2 className="section-title">Current & Completed Projects</h2>
           <div className="projects-grid">
             {projects.map((project, idx) => (
               <div key={idx} className="project-card">
