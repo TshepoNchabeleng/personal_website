@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {Menu, X, Github, Linkedin, Instagram, Mail, ExternalLink, ChevronDown} from 'lucide-react';
 import ragImage from './Screenshot_2025-12-31_180903.png';
 import myImage from './IMG-20251231-WA0027.jpg';
+import hackathon from './IBM-Hackathon.png';
 import myCV from './Tshepo_Nchabeleng_CV.pdf';
 import './index.css';
 
@@ -30,6 +31,13 @@ export default function Portfolio(){
       tech: ["Python", "fastapi", "JavaScript", "streamlit"],
       image: ragImage,
       link:"https://github.com/HammerLock7/RAG-1"
+    },
+    {
+      title: "IBM-Watsonx-Orchestra-Hackathon",
+      description: "his project outlines a multi-agent ecosystem designed to automate the intellectual property lifecycle. By chaining specialized agents, we have created a workflow that moves an idea from a raw concept to a formalized legal filing with zero data loss.",
+      tech: ["Langflow", "IBM Orchestra", "Python"],
+      image: hackathon,
+      link: "https://github.com/TshepoNchabeleng/IBM-Watsonx-Orchestra-Hackathon"
     }
   ];
 
@@ -106,7 +114,7 @@ export default function Portfolio(){
           </div>
           <h1> Student, Tech enthusiast, & aspiring Researcher </h1>
           <p> I am an electrical engineering student at the University of Pretoria driven by curiosity and long-term thinking.
-              I build things at the intersection of embedded systems, control, and intelligent software fowm autonomous RC platforms to experimental ideas in energy, robotics, and
+              I build things at the intersection of embedded systems, control, and intelligent software from autonomous RC platforms to experimental ideas in energy, robotics, and
               security foocused system design. I care deeply about learning how things really work, thinking rigorously, and turning ambitious ideas into real evolving systems.
           </p>
           <p>Building the future through code, research, and creativity</p>
